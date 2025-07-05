@@ -1,0 +1,23 @@
+
+@media (max-width: 800px) {
+    .custom-table th,
+    .custom-table td {
+      @apply text-sm; 
+      @apply py-2 px-3; 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #card-display {
+      @apply hidden; 
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .custom-table th,
+    .custom-table td {
+      @apply text-xs; 
+      @apply py-1 px-2; 
+    }
+  }
+  

@@ -1,0 +1,46 @@
+
+table{
+    background-color: #ffff;
+    border-radius: 20px;
+}
+
+.tbody-hr{
+border-radius: 20px;
+}
+
+table tbody tr td{
+    padding: 2rem;
+} 
+
+
+/* 
+table {
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+  }
+
+  .tbody-hr {
+    border-radius: 20px;
+    color: black;
+  }
+
+  table tbody tr td {
+    padding: 2rem;
+  }
+
+  table thead th {
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-bottom: 2px solid #e5e7eb;
+  }
+
+  table tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+
+  table tbody tr:hover {
+    background-color: #f1f5f9;
+  } */
