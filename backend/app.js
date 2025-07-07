@@ -39,9 +39,8 @@ const Test = require('./routes/TestRoutes.js');
 const eventRouter = require('./routes/Eventrouters.js');
 
 
-// practice test -  added by prachi on 4th july 2025
-const testGenerationRoutes = require('./routes/practiceTest/testGenerationRoutes.js');
-
+// practice test -  added by prachi on 7th july 2025
+const practice = require('./routes/practiceTest/practiceRoutes.js')
 
 
 
@@ -66,7 +65,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //Routes
 
-app.use('/practice', testGenerationRoutes);
+
+app.use('/practice',practice);
 
 
 

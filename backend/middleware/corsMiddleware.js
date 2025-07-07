@@ -1,4 +1,4 @@
-const allowedOrigins = ['https://tpo.getflytechnologies.com', 'http://localhost:5000', 'http://localhost:3001', 'http://localhost:5173', 'http://localhost:5011'];
+const allowedOrigins = ['https://tpo.getflytechnologies.com', 'http://localhost:5000', 'http://localhost:3001', 'http://localhost:5173', 'http://localhost:5011', 'http://localhost:3000'];
     
 const corsOptions = {
   origin: (origin, callback) => {
