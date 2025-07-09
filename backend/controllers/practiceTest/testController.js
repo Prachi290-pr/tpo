@@ -93,7 +93,7 @@ exports.generateTest = async (req, res) => {
 
     // 2. Format a better prompt for Gemini (ensure JSON output)
     const formattedPrompt = `
-You are an expert test creator. Generate 5 multiple choice questions based on the following topic:
+You are an expert test creator. Generate 30 multiple choice questions based on the following topic:
 
 "${prompt.prompt_text}"
 
